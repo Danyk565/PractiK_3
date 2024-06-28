@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Школьные предметы</title>
+<script language="JavaScript">
+function writeSub(){
+var subjects = new Array("Математика", "физика", "Информатика", "Геометрия", "Русский язык", "Литература", "Обществознвние");
+var sciences = subjects.slice(0, 4);
+var humanities = subjects.slice(4, 7);
+document.write(sciences.join(", ") + "<br>");
+document.write(humanities.join(", "));
+}
+</script>
+</head>
+<body>
+<script language="JavaScript">
+writeSub();
+</script>
+</body>
+</html> 
